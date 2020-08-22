@@ -4,7 +4,7 @@
 # use each 
 # use collect
 
-def reverse_each_word(sentence)
+def reverse_each_word(sentence1)
   sentence.split.collect{|word| word.reverse}.join(",")
   sentence
 end
