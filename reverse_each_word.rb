@@ -5,7 +5,7 @@
 # use collect
 
 def reverse_each_word(sentence1)
-  
+  sentence2.split.each {|word| word
   sentence1.split.collect{|word| word.reverse}.join(",")
 
 end
