@@ -6,7 +6,8 @@
 
 def reverse_each_word(sentence1)
   not_original = []
-  sentence2.split.each {|word| not_original << word.reverse
+  sentence2.split.each {|word| not_original << word.reverse}
+  not_original.join(" ")
   
 end
 
