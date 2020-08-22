@@ -5,5 +5,5 @@
 # use collect
 
 def reverse_each_word(sentence)
-  sentence.map.re
+  sentence.collect.split
 ends
