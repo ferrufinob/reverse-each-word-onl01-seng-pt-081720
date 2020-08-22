@@ -5,6 +5,6 @@
 # use collect
 
 def reverse_each_word(sentence)
-  sentence.collect.split{|word| word.reverse}.join(",")
+  sentence.split.collect{|word| word.reverse}.join(",")
   sentence
 end
